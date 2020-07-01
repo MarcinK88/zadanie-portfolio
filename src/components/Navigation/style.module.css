@@ -6,3 +6,14 @@
     background-color: red;
     
 }
+
+.navigation{
+    list-style: none;
+}
+
+.navigation li{
+    padding:10px 20px;
+    display: block;
+    float: left;
+    margin-left:20px;
+}
