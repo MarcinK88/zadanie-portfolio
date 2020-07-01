@@ -1,0 +1,14 @@
+.root{
+    text-align: center;
+    padding: 0 20px;
+}
+
+.root img{
+    width: 50px;
+}
+.imageWrapper{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
