@@ -1,21 +1,18 @@
 import React from 'react';
+import PropTypes from 'prop-types'
 import s from './style.module.css';
 
-export default function Navigation({ menu }) {
+function Navigation({ menus }) {
     return (
-        <ul>
-            {menu.map((item => (
-                <li>
-                    <a href={item.link}>{item.title}</a>
-                </li>
-            )))}
-        </ul>
+       
     )
 }
 
+Navigation.propTypes = {
 
+}
 
-
+export default Navigation
 
 
 // export default class Navigation extends React.Component {
