@@ -4,7 +4,7 @@ import s from './style.module.css'
 export default function CTA({ title, subtitle, background, opacity, button }) {
     return (
         <div className={s.root}>
-            <div className={s.bg} style={{ backgroundImage: `url(${background})`, opacity: opacity }} / >
+            <div className={s.bg} style={{ backgroundImage: `url(${background})`, opacity: opacity }} />
                 <div className="d-flex align-items-center h-100">
                     <div className={s.text}>
                         <h3>{title}</h3>
