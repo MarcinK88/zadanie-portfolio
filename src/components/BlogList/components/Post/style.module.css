@@ -1,0 +1,26 @@
+.root {
+    margin-bottom: 50px;
+    box-shadow: #e4e4e4 1px 3px 15px;
+}
+
+
+.root img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.description{
+    height: 190px;
+    overflow: hidden;
+}
+
+.tags{
+    border-top:1px solid #f3f3f3;
+    padding-top: 10px;
+    margin: 10px 0;
+}
+
+.text{
+    padding: 0 15px 10px 15px;
+}
