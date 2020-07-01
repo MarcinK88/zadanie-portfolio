@@ -1,0 +1,34 @@
+.root{
+width: 100%;
+height: 300px;
+
+}
+
+.root img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.root .onHover {
+    opacity: 0;
+    transition: all linear 300ms;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    color: #fff;
+    background: rgba(228,164,26,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.root:hover .onHover{
+    opacity: 1;
+}
