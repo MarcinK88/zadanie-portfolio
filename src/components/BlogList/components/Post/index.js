@@ -1,8 +1,10 @@
 import React from 'react';
 import s from './style.module.css';
+import { Link } from 'react-router-dom';
 
-export default function Post({ title, description, image, date, author, avatar, category, tags }) {
+export default function Post({ id, title, description, image, date, author, avatar, category, tags }) {
     return (
+        <Link to={`/blog/${id}` }>
         <div className={s.root}>
             <img src={image} />
             <div className={s.text}>
@@ -22,5 +24,6 @@ export default function Post({ title, description, image, date, author, avatar, 
                     </div>
             </div>
         </div>
+        </Link>
     )
 }

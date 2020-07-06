@@ -2,14 +2,14 @@ export const homepage = {
   companyName: "ABCD",
   navigation: [
     {
-      title: 'O mnie',
-      link: '#omnie',
+      title: 'Home',
+      link: '/',
     }, {
-      title: 'Portfolio',
-      link: '#portfolio',
+      title: 'Blog',
+      link: '/blog',
     }, {
-      title: 'Oferta',
-      link: '#oferta',
+      title: 'Movies',
+      link: '/movies',
     }, {
       title: 'Kontakt',
       link: '#kontakt',

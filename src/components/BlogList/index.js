@@ -23,9 +23,9 @@ export default function BlogList({ title, posts }) {
         <div className="container">
             <h2 className="text-center">{title}</h2>
             <div className="row">
-                {slicedPosts.map((post) => (
+                {slicedPosts.map((post, index) => (
                     <div className="col-4">
-                        <Post {...post} />
+                        <Post id={index} {...post} />
                     </div>
                 ))}
             </div>

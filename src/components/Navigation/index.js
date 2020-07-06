@@ -1,12 +1,13 @@
 import React from 'react';
 import s from './style.module.css';
+import { Link }  from 'react-router-dom';
 
 export default function Navigation({ menu }) {
     return (
         <ul className={s.navigation}>
             {menu.map((item => (
                 <li>
-                    <a href={item.link}>{item.title}</a>
+                    <Link to={item.link}>{item.title}</Link>
                 </li>
             )))}
         </ul>
