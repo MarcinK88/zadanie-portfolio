@@ -7,8 +7,11 @@ import Blog from './Blog';
 import { homepage } from './homepage.const.js';
 import Header from './components/Header';
 import SinglePostBlog from './SinglePostBlog';
+import Images from './components/Images';
 
 import Footer from './components/Footer';
+
+// https://redux.js.org/basics/example
 
 function App() {
   const {
@@ -33,6 +36,7 @@ function App() {
           children={({ match }) => match && <h1>Actors</h1>}
         />
       </div>
+      <Images />
       <Footer {...contact} {...contactDetails} />
 
     </Router>

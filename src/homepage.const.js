@@ -13,6 +13,9 @@ export const homepage = {
     }, {
       title: 'Kontakt',
       link: '#kontakt',
+    }, {
+      title: 'Api',
+      link: '/api',
     },
   ],
   contactDetails: {

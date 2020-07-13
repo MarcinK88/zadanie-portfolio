@@ -1,5 +1,6 @@
 import React from 'react';
-import s from './style.module.css'
+import s from './style.module.css';
+import AddArticle from '../AddArticle';
 
 
 export default function Hero({ images, title, subtitle, button }) {
@@ -13,6 +14,7 @@ export default function Hero({ images, title, subtitle, button }) {
                     <h2>{title}</h2>
                     <div className="mt-4 mb-4">{subtitle}</div>
                     <button className="btn btn-primary btn-lg" >{button}</button>
+                    <AddArticle />
                 </div>
             </div>
             </div>

@@ -7,6 +7,7 @@ import OurServices from './components/OurServices';
 import OurProjects from './components/OurProjects';
 import BlogList from './components/BlogList';
 import CTAComponent from './components/CTA';
+import ArticleList from './components/ArticleList';
 
 // https://getbootstrap.com/docs/4.4/components/alerts/
 
@@ -26,6 +27,7 @@ import CTAComponent from './components/CTA';
     return (
       <div className="">
         <Hero {...hero} />
+        <ArticleList />
         <CTAComponent {...CTA} />
         <OurServices {...ourServices} />
         <OurProjects {...ourProjects} />
